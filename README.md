@@ -1,4 +1,4 @@
-# Test
+# Monte Hall Problem
 
 A Simple Monte Hall Program that gives the user 3 doors one with a prize of a car and the other 2 with goats. 
 The guest is then asked to select one of the doors which he things contains a car. The host then reveals one of the remaining two doors containing a goat
