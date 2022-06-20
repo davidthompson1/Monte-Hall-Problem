@@ -8,3 +8,6 @@ The general assumption is that once a door is removed each remaining door has a 
 is only a 33.3% chance that the car is behind the door initally selected and the other door has a 66.7% chance of being correct. 
 
 So, statistically speaking, it makes sense to swap doors
+
+
+V 2 - Rewrote the code using lists rather than dictionaries as they are indexable. 
