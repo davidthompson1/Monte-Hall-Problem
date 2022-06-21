@@ -26,7 +26,7 @@ remainingDoors.pop(int(ask) - 1)
 randomDoor = random.randint(0,1)
 if remainingPrizes[randomDoor] == "Goat":
     while True:
-        answer = input('There is a ' + remainingPrizes[randomDoor] + ' behind ' + doors[randomDoor] + ', would you like to swap between your original choice of ' + doors[int(ask)] + ' and the one reamining door? (y/n)')
+        answer = input('There is a ' + remainingPrizes[randomDoor] + ' behind ' + doors[randomDoor] + ', would you like to swap between your original choice of ' + doors[int(ask)] + ' and the one remaining door? (y/n)')
         if answer == 'y':
             if prizes[int(ask)- 1] == 'Car':
                 print('You Lose')
